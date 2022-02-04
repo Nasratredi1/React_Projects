@@ -1,0 +1,34 @@
+ // Date : 3/2/022 Reactcomponent 32  Lecture by Usman Akram  (https://www.youtube.com/watch?v=4suiM53RKoM&list=PL6o1wrJYZDZZsdZ_r1jiIx_uRx58caOuG&index=30&ab_channel=UsmanAkram)
+ 
+ React folder structre 
+
+ You can create react app by using below commond:
+ 
+ npm init react-app filename // you can give any name i give name firstreact
+When the file is created then there is 
+- node_module 
+- public   // there is some file related to html
+- src // there is some file related to js 
+- etc like gitignore , package.json and etc
+ 
+-function which we created : they return one tag div might be there is multiple tag within this div..   
+-only we write component in App.js
+
+You can connect by two ways 
+
+1)  * if you want to connect css with this then create separate file and give extension .css in public folder.
+
+connect this css file by using link in index.html
+
+2) In src file there is a file by the name of index.cs (remove every thing from that and write css code and then import in App.js file) 
+by using below relative path.
+
+* How to attach Bootstrap with React
+
+Bootstrap is so discouraging way to connect with react b/c bootstrap is dependant on  jquery
+if you want to connect this then you can get idea from usmanlive slide which also show in this vide 
+but i can do here.
+* In JSX we used import in other we used require
+ 
+
+* React have one liberary by the name of React Booostrap
