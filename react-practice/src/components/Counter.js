@@ -26,3 +26,24 @@ const Counter = () => {
 };
 
 export default Counter;
+
+// If you want to state up (this counter with all other thing which is below for this you must copy some code and paste to app.js file)
+/*
+import React from "react";
+// we pass handle inc,handle dec,count, as a props
+
+const Counter = ({ count, handleIncrement, handleDecrement }) => {
+  return (
+    <div style={{ padding: "2rem" }}>
+      {count}
+      <button onClick={handleDecrement}>--</button>
+      {count}
+      <button onClick={handleIncrement}>++</button>
+      {count}
+    </div>
+  );
+};
+
+export default Counter;
+
+*/

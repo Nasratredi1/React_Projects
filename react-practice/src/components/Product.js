@@ -2,8 +2,7 @@ import React from "react";
 import "./productstyle.css";
 const product = ({title,price,onAddToCart}) => {
  // console.log(props);
-
-
+ 
   // conditonal formating
   var priceClass = price <= 500 ? "orange" : "green";
   return (
